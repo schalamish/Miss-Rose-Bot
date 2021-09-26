@@ -15,7 +15,8 @@ class Config(object):
     OWNER_USERNAME = "justchillin27"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:postgres@localhost:5432/rose_sc_clone'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:postgres@localhost/rose_sc_clone'  # needed for any database modules, 
+    #postgresql://postgres:postgres@localhost:5432/rose_sc_clone'
     MESSAGE_DUMP = "-1001421186460"  # needed to make sure 'save from' messages persist
     USE_MESSAGE_DUMP = True
     LOAD = []
