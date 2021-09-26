@@ -1,1 +1,1 @@
-web: python3 -m tg_bot $PORT app.py
+web: python3 -m tg_bot  ${PORT}
