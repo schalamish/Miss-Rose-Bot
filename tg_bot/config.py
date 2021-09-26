@@ -6,7 +6,7 @@ class Development(Config):
     OWNER_USERNAME = "justchillin27"  # my telegram username
     API_KEY = "1955901827:AAHglsK-oCFxGKGPlgq4gmO91ThEK5jDwp0"  # my api key, as provided by the botfather
     SQLALCHEMY_DATABASE_URI = None # needed for any database modules 
-    SQLACHEMY_DATABASE_URI = 'postgresql://postgres:postgres@localhost:5432/rose_sc_clone'  sample db credentials
+    SQLACHEMY_DATABASE_URI = 'postgresql://postgres:postgres@localhost:5432/rose_sc_clone'  #sample db credentials
     MESSAGE_DUMP = '-1234567890' some group chat that your bot is a member of
     
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
