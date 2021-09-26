@@ -87,7 +87,7 @@ else:
 
     WEBHOOK = Config.WEBHOOK
     URL = Config.URL
-    PORT = Config.PORT
+   # PORT = Config.PORT
     CERT_PATH = Config.CERT_PATH
     print(PORT)
     DB_URI = Config.SQLALCHEMY_DATABASE_URI
