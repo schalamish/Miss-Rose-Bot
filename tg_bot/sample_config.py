@@ -15,8 +15,7 @@ class Config(object):
     OWNER_USERNAME = "justchillin27"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 
-    'postgres://wvufrieyvmdsso:5bf748da5a5cddc8cf7cc1601dae9c52865495e911bb320873a33d5d507b2c2d@ec2-34-197-135-44.compute-1.amazonaws.com:5432/derooqjcl0mj1v'
+    SQLALCHEMY_DATABASE_URI = 'postgres://wvufrieyvmdsso:5bf748da5a5cddc8cf7cc1601dae9c52865495e911bb320873a33d5d507b2c2d@ec2-34-197-135-44.compute-1.amazonaws.com:5432/derooqjcl0mj1v'
   # needed for any database modules, 
     #postgresql://postgres:postgres@localhost:5432/rose_sc_clone'
     MESSAGE_DUMP = "-1001421186460"  # needed to make sure 'save from' messages persist
