@@ -31,7 +31,7 @@ class Config(object):
     WHITELIST_USERS = []  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     DONATION_LINK = None  # EG, paypal
     CERT_PATH = None
-    PORT = $PORT #5000
+    #PORT = $PORT #5000
     DEL_CMDS = False  # Whether or not you should delete "blue text must click" commands
     STRICT_GBAN = False
     STRICT_GMUTE = False
